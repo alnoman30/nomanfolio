@@ -102,21 +102,29 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "NextBoss",
-    imageKey: "nextboss",
-    description: "Get hired through DMs not resumes 🤝",
-    gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-    // url: "https://nextboss.in",
+    name: "PantoFurniture",
+    imageKey: "panto",
+    description: "Built with ReactJS + Tailwind CSS ✍🏻",
+    gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green(cherry blossom inspired)
+    url: "https://alnoman-panto-design.vercel.app/",
     tech: ["typescript", "react", "expo", "react-query"],
   },
-  {
-    name: "ReadyAI",
-    imageKey: "ready-ai",
-    description: "AI that gets you interview ready 🎯",
-    gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
-    url: "https://play.google.com/store/apps/details?id=com.app.readyai",
-    tech: ["typescript", "react"],
-  },
+  // {
+  //   name: "NextBoss",
+  //   imageKey: "nextboss",
+  //   description: "Get hired through DMs not resumes 🤝",
+  //   gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
+  //   // url: "https://nextboss.in",
+  //   tech: ["typescript", "react", "expo", "react-query"],
+  // },
+  // {
+  //   name: "ReadyAI",
+  //   imageKey: "ready-ai",
+  //   description: "AI that gets you interview ready 🎯",
+  //   gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
+  //   url: "https://play.google.com/store/apps/details?id=com.app.readyai",
+  //   tech: ["typescript", "react"],
+  // },
   {
     name: "Medium",
     imageKey: "medium",

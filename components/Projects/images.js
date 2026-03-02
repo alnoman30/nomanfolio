@@ -1,5 +1,4 @@
-import nextboss from "../../public/projects/nextboss.webp";
-import readyAi from "../../public/projects/ready-ai.webp";
+import panto from "../../public/projects/pantofurniture.webp";
 import round1 from "../../public/projects/round1.webp";
 import reactNativeDirectory from "../../public/projects/react-native-directory.webp";
 import buywow from "../../public/projects/buywow.webp";
@@ -11,8 +10,7 @@ import inshorts from "../../public/projects/inshorts.webp";
 import tesla from "../../public/projects/tesla.webp";
 
 export const PROJECT_IMAGES = {
-  nextboss,
-  "ready-ai": readyAi,
+  panto,
   round1,
   "react-native-directory": reactNativeDirectory,
   buywow,
