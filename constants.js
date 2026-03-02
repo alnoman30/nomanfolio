@@ -5,6 +5,7 @@ export const METADATA = {
     "Abdullah Al Noman, a passionate Laravel developer dedicated to building modern, scalable, and high-performance web applications that deliver seamless user experiences and clean, maintainable code.",
   siteUrl: "https://alnoman.vercel.app/",
   twitterHandle: "@alnoman30hehe",
+  instagramHandle: "@noman.hehe",
   keywords: [
     "Abdullah Al Noman",
     "Frontend Engineer",
@@ -78,26 +79,25 @@ export const SKILLS = {
     "css",
     "javascript",
     "typescript",
-    "sass",
     "nodejs",
-    "webpack",
     "vite",
+    "python",
+    "php",
     "firebase",
     "figma",
-    "tanstack",
   ],
   librariesAndFrameworks: [
-    "expo",
+    "laravel",
     "react",
-    "redux",
-    "nextjs",
     "tailwindcss",
+    "bootstrap",
     "styledcomponents",
-    "antdesign",
-    "chakra-ui",
+    "netlify",
+    "vscode",
+    "pycharm"
   ],
   databases: ["mysql", "mongodb"],
-  other: ["git", "cursor", "sanity"],
+  other: ["git", "github",  ],
 };
 
 export const PROJECTS = [
