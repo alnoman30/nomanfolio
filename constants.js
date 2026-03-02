@@ -144,76 +144,82 @@ export const PROJECTS = [
 ];
 
 export const WORK_CONTENTS = {
-  GRAPEVINE: [
+  EDUCATION: [
     {
-      title: "Grapevine",
+      title: "Bachelor of Science (BSc)",
       description:
-        "Grapevine is your anonymous office chat, letting coworkers speak openly, share gossip and connect without filters. Building on that same belief, Round1 AI brings it to hiring using AI-driven interviews to replace guesswork with genuine and meaningful conversations.",
+        "Daffodil International University (2020 - 2024)",
+      description2:
+      "I have completed BSc in Computer Science and Engineering (CSE), with skills in programming, software development, and emerging technologies.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Connect anonymously. Share freely.
+          Computer Science &amp; Engineering (CSE).
         </div>
       ),
     },
     {
-      title: "Pioneering",
+      title: "Higher Secondary Centificate (HSC)",
       description:
-        "Hiring was broken — manual, biased, and slow. We launched Round1 AI to fix that: authentic voice interviews, built-in bias checks and real-time insights. Today, it powers thousands of interviews each week, letting teams hire smarter, faster and fairer.",
+        "Ideal College, Dhanmondi (2018-2019)",
+      description2:
+      "Successfully completed HSC with a focus on Science, demonstrating strong foundations in Physics, Chemistry, Biology, and Mathematics.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Depertment of Science
         </div>
       ),
     },
     {
-      title: "Elevate",
+      title: "Secondary School Certificate (SSC) ",
       description:
-        "The early web app struggled with slow performance and zero retention. I rebuilt it from the ground up with a sleek UI, faster load times and SEO-optimized. Then seeded a rich content layer to spark discovery. The payoff? 6x more impressions and 10x the organic installs all without ads, just momentum.",
+      "Ashrafabad High School, Dhaka (2017)",
+      description2:
+        "Successfully completed SSC with strong performance in Science, Mathematics, English, and Social Studies, demonstrating dedication and solid academic foundations.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Depertment of Science
         </div>
       ),
     },
   ],
-  DUKAAN: [
+  EXPERIENCE: [
     {
-      title: "Dukaan",
+      title: "Getweb Inc.",
       description:
-        "Dukaan is a platform that enables businesses to launch their online stores at ease.",
+        "I work at this software-based IT company in Dhaka, Bangladesh, as a junior Web Developer and Sales Development Representative. I develop user-friendly web applications and engage with clients to drive growth, combining technical skills with coommunication and problem-solving",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Revolutionizing commerce, one click at a time
+          Sales Development Representative
         </div>
       ),
     },
     {
-      title: "Transformation",
+      title: "Creative IT Institute",
       description:
-        "Since 2023, the Dukaan Seller Dashboard struggled with technical issues and a broken user experience due to accumulated technical debt. Leading a team of two junior developers, we migrated the dashboard from CSR to SSR, redesigned the UI, and overhauled the codebase in the process. This resolved the technical debt and vastly improved the user experience, making it Dukaan's largest and most impactful migration.",
+        "Learn to build modern, mobile-friendly websites that adapt seamlessly to all devices. Master HTML, CSS, and responsive design techniques to create visually appealing and user-friendly web experiences.",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Senior Frontend Engineer
+          Responsive Web Design
         </div>
       ),
     },
     {
-      title: "Evolution",
+      title: "Computer Programming Club (CPC) - DIU",
       description:
-        "Recognizing the need for improved performance and user engagement, I spearheaded the migration of the Dukaan App from native to React-Native for iOS and Android platforms. This strategic move led to a X% enhancement in app performance and a Y% boost in user engagement, representing a significant milestone in the app's evolution.",
+        "A voluntary organization aims to help students learn and apply through various activities",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer
+          Programming
         </div>
       ),
     },
     {
-      title: "Optimization",
+      title: "Prothom Alo Bondhushava - DIU",
       description:
-        "Leveraging user feedback and analytics, I improved the seller web dashboard design, reducing bounce rates. Simultaneously, I overhauled the build process, slashing bundle size and boosting overall performance.",
+        "A voluntary organization aimed at community service and social development",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Frontend Engineer Intern
+          Bondhushava
         </div>
       ),
     },
