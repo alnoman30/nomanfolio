@@ -102,20 +102,20 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "PantoFurniture",
+    name: "Panto Furniture",
     imageKey: "panto",
     description: "Built with ReactJS + Tailwind CSS ✍🏻",
     gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green(cherry blossom inspired)
     url: "https://alnoman-panto-design.vercel.app/",
-    tech: ["typescript", "react", "expo", "react-query"],
+    tech: ["tailwindcss", "react", "html", "css"],
   },
   // {
-  //   name: "NextBoss",
-  //   imageKey: "nextboss",
-  //   description: "Get hired through DMs not resumes 🤝",
+  //   name: "Canvix Agency",
+  //   imageKey: "canvix-agency",
+  //   description: "Build with ReactJS 🤝",
   //   gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-  //   // url: "https://nextboss.in",
-  //   tech: ["typescript", "react", "expo", "react-query"],
+  //   // url: "https://alnoman-canvix-agency.vercel.app",
+  //   tech: ["react", "tailwind", "javascript", "figma"],
   // },
   // {
   //   name: "ReadyAI",
@@ -126,19 +126,19 @@ export const PROJECTS = [
   //   tech: ["typescript", "react"],
   // },
   {
-    name: "Medium",
-    imageKey: "medium",
-    description: "Built with NextJS + Tailwind CSS ✍🏻",
+    name: "Canvix Agency",
+    imageKey: "canvix",
+    description: "uild with ReactJS 🤝",
     gradient: ["#FF9800", "#F57C00"], // warm orange to deep orange
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity"],
+    url: "https://alnoman-canvix-agency.vercel.app",
+    tech: ["react", "tailwindcss", "javascript", "figma"],
   },
   {
-    name: "Inshorts",
-    imageKey: "inshorts",
-    description: "Voice-enabled news using Alan AI 🎙",
+    name: "Task Assistant",
+    imageKey: "taskassistant",
+    description: "Task Assistant manager App 🎙",
     gradient: ["#6366F1", "#4F46E5"], // indigo to deep indigo
-    url: "https://shubh73-inshorts.netlify.app/",
+    url: "https://alnoman-task-assistant.vercel.app/",
     tech: ["javascript", "react", "chakra-ui", "alan"],
   },
 ];
