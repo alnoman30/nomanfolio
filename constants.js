@@ -102,6 +102,14 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "ClickVerse",
+    imageKey: "clickverse",
+    description: "Laravel 11 RestFull API with Admin panel 👊",
+    gradient: ["#0F172A", "#1E293B"], // midnight blue to dark slate (electric/tech feel)
+    url: "https://github.com/alnoman30/",
+    tech: ["laravel", "mysql", "html", "css"],
+  },
+  {
     name: "Laravel Task Manager",
     imageKey: "lvtask",
     description: "Built with Laravel 11 & Blade template ☝",
@@ -131,7 +139,7 @@ export const PROJECTS = [
     description: "ReactJS Task Assistant manager App 🎙",
     gradient: ["#6366F1", "#4F46E5"], // indigo to deep indigo
     url: "https://alnoman-task-assistant.vercel.app/",
-    tech: ["javascript", "react", "chakra-ui", "alan"],
+    tech: ["javascript", "react", "css", "html"],
   },
 ];
 
