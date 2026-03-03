@@ -106,8 +106,8 @@ export const PROJECTS = [
     imageKey: "lvtask",
     description: "Built with Laravel 11 & Blade template ☝",
     gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green(cherry blossom inspired)
-    url: "https://alnoman-panto-design.vercel.app/",
-    tech: ["tailwindcss", "react", "html", "css"],
+    url: "https://github.com/alnoman30/Laravel-Task-Manager-Project",
+    tech: ["laravel", "mysql", "html", "css"],
   },
   {
     name: "Panto Furniture",
