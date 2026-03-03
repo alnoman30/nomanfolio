@@ -102,33 +102,25 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Panto Furniture",
-    imageKey: "panto",
-    description: "Built with ReactJS + Tailwind CSS ✍🏻",
+    name: "Laravel Task Manager",
+    imageKey: "lvtask",
+    description: "Built with Laravel 11 & Blade template ☝",
     gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green(cherry blossom inspired)
     url: "https://alnoman-panto-design.vercel.app/",
     tech: ["tailwindcss", "react", "html", "css"],
   },
-  // {
-  //   name: "Canvix Agency",
-  //   imageKey: "canvix-agency",
-  //   description: "Build with ReactJS 🤝",
-  //   gradient: ["#FF69B4", "#FFB6C1"], // hot pink to light pink (cherry blossom inspired)
-  //   // url: "https://alnoman-canvix-agency.vercel.app",
-  //   tech: ["react", "tailwind", "javascript", "figma"],
-  // },
-  // {
-  //   name: "ReadyAI",
-  //   imageKey: "ready-ai",
-  //   description: "AI that gets you interview ready 🎯",
-  //   gradient: ["#F4D03F", "#58D68D"], // warm gold to fresh green
-  //   url: "https://play.google.com/store/apps/details?id=com.app.readyai",
-  //   tech: ["typescript", "react"],
-  // },
+  {
+    name: "Panto Furniture",
+    imageKey: "panto",
+    description: "Built with ReactJS + Tailwind CSS ✍🏻",
+    gradient: ["#5D4037", "#8D6E63"], // dark brown to medium brown
+    url: "https://alnoman-panto-design.vercel.app/",
+    tech: ["tailwindcss", "react", "html", "css"],
+  },
   {
     name: "Canvix Agency",
     imageKey: "canvix",
-    description: "uild with ReactJS 🤝",
+    description: "Build with ReactJS & Tailwind CSS 🤝",
     gradient: ["#FF9800", "#F57C00"], // warm orange to deep orange
     url: "https://alnoman-canvix-agency.vercel.app",
     tech: ["react", "tailwindcss", "javascript", "figma"],
@@ -136,7 +128,7 @@ export const PROJECTS = [
   {
     name: "Task Assistant",
     imageKey: "taskassistant",
-    description: "Task Assistant manager App 🎙",
+    description: "ReactJS Task Assistant manager App 🎙",
     gradient: ["#6366F1", "#4F46E5"], // indigo to deep indigo
     url: "https://alnoman-task-assistant.vercel.app/",
     tech: ["javascript", "react", "chakra-ui", "alan"],
