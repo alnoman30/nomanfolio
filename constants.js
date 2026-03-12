@@ -104,7 +104,7 @@ export const PROJECTS = [
   {
     name: "ClickVerse",
     imageKey: "clickverse",
-    description: "Blog site Laravel 11 RestFull API with Admin panel 👊",
+    description: "Blog site Laravel 11 Admin panel 👊",
     gradient: ["#0F172A", "#1E293B"], // midnight blue to dark slate (electric/tech feel)
     url: "https://github.com/alnoman30/clcikverse-fullstack-laravel",
     tech: ["laravel", "mysql", "postman", "html"],
