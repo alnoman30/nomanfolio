@@ -102,6 +102,14 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
+    name: "Upcoming",
+    imageKey: "organic",
+    description: "upcoming project",
+    gradient: ["#EBF4DD", "#90AB8B"], // midnight blue to dark slate (electric/tech feel)
+    url: "https://github.com/alnoman30/",
+    tech: ["laravel", "mysql", "figma", "html"],
+  },
+  {
     name: "ClickVerse",
     imageKey: "clickverse",
     description: "Blog site Laravel 11 with Admin panel 👊",

@@ -81,17 +81,17 @@ const Hero = () => {
         >
           Hi, my name is
         </h5>
-        <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-         <span className={`relative ${styles.emphasize} staggered-reveal`}>
-            Abdullah
-          </span>
+        <h1 className={`${styles.heroName} text-white text-5xl sm:text-4xl lg:text-6xl font-semibold`}>
+        <span className={`relative ${styles.emphasize} staggered-reveal`}>
+          Abdullah
+        </span>
 
-          <span className="staggered-reveal"> Al Noman</span>
-        </h1>
+        <span className="staggered-reveal"> Al Noman</span>
+      </h1>
         <p>
           <span
             ref={typedElementRef}
-            className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
+            className="staggered-reveal text-2xl lg:text-3xl text-gray-light-3 font-mono leading-relaxed"
           />
         </p>
         <div className="staggered-reveal">
@@ -104,7 +104,7 @@ const Hero = () => {
         </div>
       </div>
       <div
-        className="absolute invisible w-4/12 bottom-1.5 lg:visible lg:right-12 2xl:right-16"
+        className="absolute w-full bottom-1.5 visible lg:w-4/12 lg:right-12 2xl:right-16"
         ref={lottieRef}
       />
     </section>
