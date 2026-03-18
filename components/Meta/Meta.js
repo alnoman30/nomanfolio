@@ -1,35 +1,47 @@
 import Head from "next/head";
-import { METADATA } from "../../constants";
+import { metadata } from "../../constants";
 
 const Meta = () => (
   <Head>
-    <title>{METADATA.title}</title>
-    <meta name="description" content={METADATA.description} />
-    <meta name="keywords" content={METADATA.keywords} />
+    <title>{metadata.title}</title>
+    <meta name="description" content={metadata.description} />
+    <meta name="keywords" content={metadata.keywords} />
     <meta name="robots" content="index,follow" />
     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content={METADATA.language} />
-    <meta name="author" content={METADATA.author} />
-    <meta name="theme-color" content={METADATA.themeColor} />
+    <meta name="language" content={metadata.language} />
+    <meta name="author" content={metadata.author} />
+    <meta name="theme-color" content={metadata.themeColor} />
     <meta httpEquiv="content-language" content="en" />
+    <meta
+    name="google-site-verification"
+    content="FKYt7Ak8JwVgbNhyg7GFQEOBe58USLN4EbkJj9M9nRU"
+  />
 
     {/* Open Graph */}
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content={METADATA.title} />
-    <meta property="og:description" content={METADATA.description} />
-    <meta property="og:image" content={METADATA.image} />
-    <meta property="og:url" content={METADATA.siteUrl} />
-    <meta property="og:site_name" content={METADATA.title} />
-
+    <meta property="og:title" content={metadata.title} />
+    <meta property="og:description" content={metadata.description} />
+    <meta property="og:image" content={metadata.image} />
+    <meta property="og:url" content={metadata.siteUrl} />
+    <meta property="og:site_name" content={metadata.title} />
     {/* Twitter */}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={METADATA.title} />
-    <meta name="twitter:description" content={METADATA.description} />
-    <meta name="twitter:site" content={METADATA.twitterHandle} />
-    <meta name="twitter:creator" content={METADATA.twitterHandle} />
-    <meta name="twitter:url" content={METADATA.siteUrl} />
-    <meta name="twitter:image" content={METADATA.image} />
+    <meta name="twitter:title" content={metadata.title} />
+    <meta name="twitter:description" content={metadata.description} />
+    <meta name="twitter:site" content={metadata.twitterHandle} />
+    <meta name="twitter:creator" content={metadata.twitterHandle} />
+    <meta name="twitter:url" content={metadata.siteUrl} />
+    <meta name="twitter:image" content={metadata.image} />
+
+    {/* Instagram */}
+    <meta name="instagram:card" content="summary_large_image" />
+    <meta name="instagram:title" content={metadata.title} />
+    <meta name="instagram:description" content={metadata.description} />
+    <meta name="instagram:site" content={metadata.instagramHandle} />
+    <meta name="instagram:creator" content={metadata.instagramHandle} />
+    <meta name="instagram:url" content={metadata.siteUrl} />
+    <meta name="instagram:image" content={metadata.image} />
 
     {/* Single Favicon */}
 <link

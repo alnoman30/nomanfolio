@@ -1,4 +1,4 @@
-export const METADATA = {
+export const metadata = {
   author: "Abdullah Al Noman",
   title: "Abdullah Al Noman | Portfolio",
   description:
@@ -9,7 +9,7 @@ export const METADATA = {
   keywords: [
     "Abdullah Al Noman",
     "Frontend Engineer",
-    "laravel Developer",
+    "Laravel Developer",
     "Software Engineer",
     "Portfolio",
     "Nomanfolio",
@@ -17,6 +17,9 @@ export const METADATA = {
   ].join(", "),
   image:
     "https://res.cloudinary.com/dxcqb5aj5/image/upload/v1772097983/portfolio_-_Abdullah_Al_Noman_jtvbsr.png",
+  verification: {
+    google: "FKYt7Ak8JwVgbNhyg7GFQEOBe58USLN4EbkJj9M9nRU",
+  },
   language: "English",
   themeColor: "#000000",
 };
