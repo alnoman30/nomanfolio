@@ -2,10 +2,10 @@ export const metadata = {
   author: "Abdullah Al Noman",
   title: "Abdullah Al Noman | Portfolio",
   description:
-    "Abdullah Al Noman, a passionate Laravel developer dedicated to building modern, scalable, and high-performance web applications that deliver seamless user experiences and clean, maintainable code.",
+    "Abdullah Al Noman is a passionate Laravel developer dedicated to building modern, scalable, and high-performance web applications that deliver seamless user experiences and clean, maintainable code.",
   siteUrl: "https://alnoman.vercel.app/",
   twitterHandle: "@alnoman30hehe",
-  instagramHandle: "@noman.hehe",
+  instagramHandle: "noman.hehe",
   keywords: [
     "Abdullah Al Noman",
     "Frontend Engineer",

@@ -23,6 +23,7 @@ const Meta = () => (
     <meta property="og:title" content={metadata.title} />
     <meta property="og:description" content={metadata.description} />
     <meta property="og:image" content={metadata.image} />
+    <meta property="og:owner" content={metadata.owner} />
     <meta property="og:url" content={metadata.siteUrl} />
     <meta property="og:site_name" content={metadata.title} />
     {/* Twitter */}
@@ -34,15 +35,6 @@ const Meta = () => (
     <meta name="twitter:url" content={metadata.siteUrl} />
     <meta name="twitter:image" content={metadata.image} />
 
-    {/* Instagram */}
-    <meta name="instagram:card" content="summary_large_image" />
-    <meta name="instagram:title" content={metadata.title} />
-    <meta name="instagram:description" content={metadata.description} />
-    <meta name="instagram:site" content={metadata.instagramHandle} />
-    <meta name="instagram:creator" content={metadata.instagramHandle} />
-    <meta name="instagram:url" content={metadata.siteUrl} />
-    <meta name="instagram:image" content={metadata.image} />
-
     {/* Single Favicon */}
 <link
   rel="icon"
@@ -51,6 +43,21 @@ const Meta = () => (
 
     <meta name="msapplication-TileColor" content="#7000FF" />
     <link rel="manifest" href="/manifest.json" />
+
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: metadata.author,
+          url: metadata.siteUrl,
+          sameAs: [
+            `https://instagram.com/${metadata.instagramHandle}`,
+          ],
+        }),
+      }}
+    />
   </Head>
 );
 

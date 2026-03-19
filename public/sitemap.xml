@@ -4,4 +4,16 @@
     <loc>https://alnoman.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://alnoman.vercel.app/skills</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alnoman.vercel.app/projects</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alnoman.vercel.app/contacts</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>

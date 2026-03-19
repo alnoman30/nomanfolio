@@ -2,16 +2,25 @@ import React, { useEffect } from "react";
 import { MENULINKS } from "../../../constants";
 
 const Menu = () => {
-  useEffect(() => {
-    const anchorNodes = document.querySelectorAll('a[href^="#"]');
+useEffect(() => {
+  const anchorNodes = document.querySelectorAll('a[href^="#"]');
 
-    anchorNodes.forEach((el) => {
-      el.addEventListener("click", () => {
-        const checkbox = document.querySelector(".checkbox-toggle");
-        checkbox.checked = false;
-      });
+  anchorNodes.forEach((el) => {
+    el.addEventListener("click", (e) => {
+      e.preventDefault(); // Prevent URL hash change
+
+      const targetId = el.getAttribute("href").substring(1); // Remove the "#"
+      const targetEl = document.getElementById(targetId);
+
+      if (targetEl) {
+        targetEl.scrollIntoView({ behavior: "smooth" }); // Smooth scroll
+      }
+
+      const checkbox = document.querySelector(".checkbox-toggle");
+      if (checkbox) checkbox.checked = false;
     });
-  }, []);
+  });
+}, []);
 
   return (
     <div className="menu fixed top-0 left-0 w-full h-full overflow-hidden invisible pointer-events-none flex items-center justify-center">
