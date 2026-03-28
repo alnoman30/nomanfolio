@@ -109,7 +109,7 @@ export const PROJECTS = [
     imageKey: "ultras",
     description: "Laravel FullStack Ecommerce Shop",
     gradient: ["#EBF4DD", "#90AB8B"], // midnight blue to dark slate (electric/tech feel)
-    url: "https://github.com/alnoman30/",
+    url: "https://github.com/alnoman30/Ultras-Ecommerce-Fullstack-Laravel",
     tech: ["laravel", "mysql", "figma", "html"],
   },
   {
