@@ -105,9 +105,9 @@ export const SKILLS = {
 
 export const PROJECTS = [
   {
-    name: "Upcoming",
-    imageKey: "organic",
-    description: "upcoming project",
+    name: "Ultras",
+    imageKey: "ultras",
+    description: "Laravel FullStack Ecommerce Shop",
     gradient: ["#EBF4DD", "#90AB8B"], // midnight blue to dark slate (electric/tech feel)
     url: "https://github.com/alnoman30/",
     tech: ["laravel", "mysql", "figma", "html"],
